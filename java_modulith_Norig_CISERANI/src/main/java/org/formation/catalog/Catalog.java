@@ -15,8 +15,8 @@ public class Catalog {
     private final ApplicationEventPublisher events;
 
     @Transactional
-    public Long createCoffee(String name int price){
-        CoffeeEntity saved = repository.save(new CoffeeEntity(name,price));
+    public Long createCoffee(String name, int price){
+        CoffeeEntity saved = repository.save(new CoffeeEntity(name, price));
         events.publishEvent(new CoffeeCreated(saved.getId(),saved.getName()));
         return saved.getId();
     }
