@@ -1,4 +1,4 @@
-package com.example.java_modulith_norig_ciserani;
+package org.formation.java_modulith_norig_ciserani;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
