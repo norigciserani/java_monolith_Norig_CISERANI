@@ -1,4 +1,4 @@
 package org.formation.catalog;
 
-public record CoffeeCreated (Long cofeeId, String name){
+public record CoffeeCreated (Long coffeeId, String name){
 }
